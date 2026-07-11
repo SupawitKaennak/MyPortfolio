@@ -94,6 +94,23 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                       <div>
                         <div className="flex justify-between items-start mb-2">
                           <div>
+                            <h3 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>Web developer </h3>
+                             <p className={`${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>Trinity Securities Company Limited.</p>
+                           </div>
+                           <span className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>2024</span>
+                        </div>
+                        <ul className={`list-disc list-inside space-y-1 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                          <li>4-Month Web Development Internship.</li>
+                          <li>Learning : Collaborated effectively in cross-functional teams to deliver projects under tight deadlines, Developed a Full-Stack Flight Search and Analysis Platform featuring real-time price comparison and seasonal trend analysis</li>
+                          <li>Learning : Framework for This project using nextjs, nodejs, expressjs, docker</li>
+                        </ul>
+                      </div>
+                    </CarouselItem>
+                    {/* Experience 2 */}
+                    <CarouselItem>
+                      <div>
+                        <div className="flex justify-between items-start mb-2">
+                          <div>
                             <h3 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>Big data </h3>
                              <p className={`${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>Guizhou Light Industry Polytechnic</p>
                            </div>
@@ -101,12 +118,12 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                         </div>
                         <ul className={`list-disc list-inside space-y-1 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
                           <li>articipated in a 2-month student exchange.</li>
-                          <li>Learning Python, Data Analyzing, Machine Learning.</li>
-                          <li>Learning Framework for Bigdata, Hadoop, HiveQL, Hbase(Apache Hbase), Zookeeper(Apache Zookeeper).</li>
+                          <li>Learning : Python, Data Analyzing, Machine Learning.</li>
+                          <li>Learning : Framework for Bigdata, Hadoop, HiveQL, Hbase(Apache Hbase), Zookeeper(Apache Zookeeper).</li>
                         </ul>
                       </div>
                     </CarouselItem>
-                    {/* Experience 2 */}
+                    {/* Experience 3 */}
                     <CarouselItem>
                       <div>
                         <div className="flex justify-between items-start mb-2">
@@ -124,7 +141,7 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                         </ul>
                       </div>
                     </CarouselItem>
-                    {/* Experience 3 */}
+                    {/* Experience 4 */}
                     <CarouselItem>
                       <div>
                         <div className="flex justify-between items-start mb-2">
@@ -142,7 +159,7 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                       </div>
                     </CarouselItem>
 
-                    {/* Experience 4: Gallery */}
+                    {/* Experience 5: Gallery */}
                     <CarouselItem>
                       <div>
                         <div className="flex justify-between items-start mb-2">
@@ -189,7 +206,7 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                       </div>
                     </CarouselItem>
 
-                    {/* Experience 5: Gallery */}
+                    {/* Experience 6: Gallery */}
                     <CarouselItem>
                       <div>
                         <div className="flex justify-between items-start mb-2">
@@ -242,7 +259,7 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                       </div>
                     </CarouselItem>
 
-                    {/* Experience 6: Gallery */}
+                    {/* Experience 7: Gallery */}
                     <CarouselItem>
                       <div>
                         <div className="flex justify-between items-start mb-2">
@@ -351,6 +368,73 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                       <div>
                         <div className="flex justify-between items-start mb-2">
                           <div>
+                            <h3 className="text-lg font-semibold">Search Flight Project</h3>
+                            <p className={`${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>About Flight Search and Analysis Platform featuring real-time price comparison and seasonal trend analysis.</p>
+                          </div>
+                          <span className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>2025</span>
+                        </div>
+                        <Dialog>
+                          <DialogTrigger asChild>
+                            <div className="relative">
+                              <img
+                                src="img/Picture40.png"
+                                alt="PICTURE1"
+                                className="w-full h-70 object-cover rounded-lg border shadow-sm cursor-pointer"
+                              />
+                              <ImageCounter count={4} isDarkMode={isDarkMode} />
+                            </div>
+                          </DialogTrigger>
+                          <DialogContent className="flex flex-col items-center p-0 bg-transparent shadow-none border-none max-w-[90vw] max-h-[90vh]">
+                            <DialogTitle className="sr-only">Project Image</DialogTitle>
+                            <DialogDescription className="sr-only">Project image preview</DialogDescription>
+                            <Carousel>
+                              <CarouselContent>
+                                <CarouselItem>
+                                  <img src="img/Picture40.png" alt="PICTURE1" className="max-w-[85vw] max-h-[85vh] w-auto h-auto rounded-lg mx-auto" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                  <img src="img/Picture41.png" alt="PICTURE1" className="max-w-[85vw] max-h-[85vh] w-auto h-auto rounded-lg mx-auto" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                  <img src="img/Picture42.png" alt="PICTURE1" className="max-w-[85vw] max-h-[85vh] w-auto h-auto rounded-lg mx-auto" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                  <img src="img/Picture43.png" alt="PICTURE1" className="max-w-[85vw] max-h-[85vh] w-auto h-auto rounded-lg mx-auto" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                  <img src="img/Picture44.png" alt="PICTURE1" className="max-w-[85vw] max-h-[85vh] w-auto h-auto rounded-lg mx-auto" />
+                                </CarouselItem>
+                                {/* เพิ่มรูปอื่น ๆ ได้ที่นี่ */}
+                              </CarouselContent>
+                              <div className="flex justify-center gap-2 mt-4">
+                                <CarouselPrevious />
+                                <CarouselNext />
+                              </div>
+                            </Carousel>
+                          </DialogContent>
+                        </Dialog>
+                        <p className={`${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+                          Developed a Full-Stack Flight Search and Analysis Platform featuring real-time price comparison and seasonal trend analysis.
+                        </p>
+                        <div className="flex flex-wrap gap-3 mb-3">
+                          <Badge className={isDarkMode ? 'bg-gray-700 text-white border-gray-600' : 'bg-white text-gray-700 border-gray-300'}>Next.js</Badge>
+                          <Badge className={isDarkMode ? 'bg-gray-700 text-white border-gray-600' : 'bg-white text-gray-700 border-gray-300'}>Node.js</Badge>
+                          <Badge className={isDarkMode ? 'bg-gray-700 text-white border-gray-600' : 'bg-white text-gray-700 border-gray-300'}>Firebase</Badge>
+                          <Badge className={isDarkMode ? 'bg-gray-700 text-white border-gray-600' : 'bg-white text-gray-700 border-gray-300'}>RESTful API</Badge>
+                        </div>
+                        <div className="flex gap-3 text-sm">
+                          <a href="https://github.com/SupawitKaennak/RMUTL_PATONPHUENG_LEAF_PLATE_MANAGEMENT.git" className="text-blue-600 hover:underline flex items-center gap-1">
+                            <Github className="w-3 h-3" />
+                            GitHub
+                          </a>
+                        </div>
+                      </div>
+                    </CarouselItem>
+                    {/* Project 2 */}
+                    <CarouselItem>
+                      <div>
+                        <div className="flex justify-between items-start mb-2">
+                          <div>
                             <h3 className="text-lg font-semibold">PATONPHUENG_LEAF_PLATE_MANAGEMENT</h3>
                             <p className={`${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>About Expense and Income Management Dashboard Web Application.</p>
                           </div>
@@ -411,7 +495,7 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                       </div>
                     </CarouselItem>
                      
-                     {/* Project 2 */}
+                     {/* Project 3 */}
                      <CarouselItem>
                       <div>
                         <div className="flex justify-between items-start mb-2">
@@ -477,7 +561,7 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                       </div>
                     </CarouselItem>
 
-                    {/* Project 3 ตัวอย่าง สามารถเพิ่มโปรเจกต์อื่นๆ ได้ที่นี่ */}
+                    {/* Project 4 ตัวอย่าง สามารถเพิ่มโปรเจกต์อื่นๆ ได้ที่นี่ */}
                     <CarouselItem>
                       <div>
                         <div className="flex justify-between items-start mb-2">
@@ -547,7 +631,7 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                         </div>
                       </div>
                     </CarouselItem>
-                    {/* Project 4 ตัวอย่าง สามารถเพิ่มโปรเจกต์อื่นๆ ได้ที่นี่ */}
+                    {/* Project 5 ตัวอย่าง สามารถเพิ่มโปรเจกต์อื่นๆ ได้ที่นี่ */}
                     <CarouselItem>
                       <div>
                         <div className="flex justify-between items-start mb-2">
@@ -607,7 +691,7 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                         </div>
                       </div>
                     </CarouselItem>
-                    {/* Project 5 ตัวอย่าง สามารถเพิ่มโปรเจกต์อื่นๆ ได้ที่นี่ */}
+                    {/* Project 6 ตัวอย่าง สามารถเพิ่มโปรเจกต์อื่นๆ ได้ที่นี่ */}
                     <CarouselItem>
                       <div>
                         <div className="flex justify-between items-start mb-2">
