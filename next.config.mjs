@@ -1,12 +1,6 @@
 /** @type {import('next').NextConfig} */
-const repo = 'MyPortfolio';
-const assetPrefix = `/${repo}/`;
-const basePath = `/${repo}`;
-
 const nextConfig = {
-  output: 'export',
-  assetPrefix: assetPrefix,
-  basePath: basePath,
+  output: 'export',  
   eslint: {
     ignoreDuringBuilds: true,
   },
