@@ -97,7 +97,7 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                             <h3 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>Web developer </h3>
                              <p className={`${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>Trinity Securities Company Limited.</p>
                            </div>
-                           <span className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>2024</span>
+                           <span className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>2026</span>
                         </div>
                         <ul className={`list-disc list-inside space-y-1 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
                           <li>4-Month Web Development Internship.</li>
@@ -371,7 +371,7 @@ Although I have limited hands-on experience, I am eager to learn, open to feedba
                             <h3 className="text-lg font-semibold">Search Flight Project</h3>
                             <p className={`${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>About Flight Search and Analysis Platform featuring real-time price comparison and seasonal trend analysis.</p>
                           </div>
-                          <span className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>2025</span>
+                          <span className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>2026</span>
                         </div>
                         <Dialog>
                           <DialogTrigger asChild>
